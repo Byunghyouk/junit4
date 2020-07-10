@@ -447,6 +447,18 @@
                     </reportSet>
                 </reportSets>
             </plugin>
+            <plugin>
+                 <groupId>org.apache.maven.plugins</groupId>
+                 <artifactId>maven-pmd-plugin</artifactId>
+                 <version>3.13.0</version>
+            </plugin>
+            
+            <plugin>
+                  <groupId>org.codehaus.mojo</groupId>
+                  <artifactId>cobertura-maven-plugin</artifactId>
+                  <version>2.7</version>
+            </plugin>
+            
         </plugins>
     </reporting>
 
@@ -559,7 +571,7 @@
                 <jdk>[1.9,)</jdk>
             </activation>
             <properties>
-                <!-- JDK 9 minimal source and target versions are 1.6 -->
+                <!-- JDK 9 minimal source and target versions are 1.6 --> 11111
                 <jdkVersion>1.6</jdkVersion>
             </properties>
             <build>
