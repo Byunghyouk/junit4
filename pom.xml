@@ -458,16 +458,15 @@
                   <artifactId>cobertura-maven-plugin</artifactId>
                   <version>2.7</version>
             </plugin>
-                 <cobertura>
+               <cobertura>
                  <formats>
                  <format>xml</format>
                  </formats>
                  <confiruration>
             </confiruration>
-            </cobertura>
+               </cobertura>
             </plugins>  
-               
-            </plugins>
+            
     </reporting>
 
     <profiles>
